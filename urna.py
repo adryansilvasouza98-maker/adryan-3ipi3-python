@@ -9,7 +9,7 @@ def CadastroCandidato():
     return n1, num1, n2, num2, n3, num3
 
 n1, num1, n2, num2, n3, num3 = CadastroCandidato() #Retira da função
-while num1==num2 and num1==num3:
+while num1==num2 and num1==num3 and num2==num3:
     print("Candidatos iguais, digite novamente!!!")
     CadastroCandidato()
 print("Sucesso!!! Candidatos Cadastrados e nenhum numero repetido!")
